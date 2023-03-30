@@ -1,0 +1,24 @@
+{
+    "name": "jaqueline/projeto_upload",
+    "description": "Sistema de Gerenciamento de Dados das estações meteorológicas",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        },
+        "files": [
+            "src/helpers/constants.php",
+            "src/router/router.php",
+            "src/core/controller.php",
+            "src/database/connect.php",
+            "src/database/fetch.php",
+            "src/helpers/redirect.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Jaqueline Fernandes",
+            "email": "dhelly@gmail.com"
+        }
+    ],
+    "require": {}
+}
